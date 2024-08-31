@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte du Magasin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Carte Interactive du Magasin</h1>
+    <div class="store-map">
+        <div class="aisle" id="shampoo">Rayon Shampooing</div>
+        <div class="aisle" id="pasta">Rayon Pâtes</div>
+        <div class="aisle" id="dairy">Rayon Produits Laitiers</div>
+        <div class="aisle" id="eggs">Rayon Œufs</div>
+        <div class="aisle" id="meat">Rayon Viande</div>
+    </div>
+    <div id="info"></div>
+    <script src="script.js"></script>
+</body>
+</html>
